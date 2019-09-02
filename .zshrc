@@ -169,5 +169,3 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # execute ~/.zsh_local at the end
 safe_source ~/.zsh_local
-
-source /disk2/web_graph/expman/expman.zsh
