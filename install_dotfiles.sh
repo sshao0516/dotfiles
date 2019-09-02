@@ -7,6 +7,8 @@ mkdir -p "$INSTALL_LOG_DIR"
 
 
 # setup zsh
+sudo apt-get install autojump
+
 ZSH_DONE="$INSTALL_LOG_DIR/zsh.done"
 if [ ! -e "$ZSH_DONE" ]; then
 	echo "Install zsh plugins ..."
